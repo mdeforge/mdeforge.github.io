@@ -40,6 +40,22 @@ body {
     margin-bottom: 12px;
 }
 
+.inch-margin {
+    margin-top: 1in;
+}
+
+.skills table {
+    border-collapse: collapse;
+}
+
+.skills table th, .skills table td {
+    padding: 0px 
+}
+
+.cover p {
+    font-size: 14pt;
+}
+
 .resume-section-title {
     font-size: 1.25rem;
     padding-bottom: 10px;
@@ -67,7 +83,7 @@ ul.timeline:before {
 }
 
 ul.timeline > li {
-    margin: 20px 0;
+    margin: 8px 0;
     padding-left: 20px;
 }
 

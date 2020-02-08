@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container inch-margin">
 		<div class="row align-items-start">
 			<div class="col-lg-9">
 				<h2>Michael DeForge</h2>
@@ -27,7 +27,8 @@
 				<div class="contact-buttons">
 					<div class="no-print">
 						<a href="https://twitter.com/mdeforge"><i class="contact-icon fab fa-twitter"></i></a>
-						<a href="https://www.linkedin.com/in/michaeldeforge/"><i class="contact-icon fab fa-linkedin-in"></i></a>
+						<a href="https://www.linkedin.com/in/michaeldeforge/"><i
+								class="contact-icon fab fa-linkedin-in"></i></a>
 						<a href="mailto:mddeforge@gmail.com"><i class="contact-icon fas fa-envelope"></i></a>
 					</div>
 					<p>Westland, MI | (734) 956-0519</p>
@@ -38,54 +39,57 @@
 			<h2 class="resume-section-title border-bottom border-dark">Strengths</h2>
 			<ul>
 				<li>Architecting, programming, and supporting realtime game and simulation engines</li>
-				<li>Leading a cross-functional team of engineers and artists in creating world-class user experiences</li>
+				<li>Leading a cross-functional team of engineers and artists in creating world-class user experiences
+				</li>
 				<li>Refactoring codebases and rehabilitating products that are in constant triage</li>
 			</ul>
 		</div>
 		<div>
 			<h2 class="resume-section-title border-bottom border-dark">Skills & Tools</h2>
-			<table class="table table-sm table-borderless">
-				<tr>
-					<th scope="row">Languages</th>
-					<td>C++, C, C#, JavaScript, Python, Java, Scala, Lua</td>
-				</tr>
-				<tr>
-					<th scope="row">Compilers</th>
-					<td>MSVC, MinGW, LuaJIT</td>
-				</tr>
-				<tr>
-					<th scope="row">Build Systems</th>
-					<td>CMake, Boost.Jam</td>
-				</tr>
-				<tr>
-					<th scope="row">Frameworks</th>
-					<td>WPF, .NET, Google Test, CAF, Node.js, Akka</td>
-				</tr>
-				<tr>
-					<th scope="row">Libraries</th>
-					<td>OpenGL, ZeroMQ, Google Protobuf, RapidJSON, GLM, GLEW, GLFW, ImGui, Boost</td>
-				</tr>
-				<tr>
-					<th scope="row">Formats</th>
-					<td>FBX, PNG, JSON, XML, OpenFlight (FLT), VRML 2.0 (WRL)</td>
-				</tr>
-				<tr>
-					<th scope="row">Version Control</th>
-					<td>Perforce, Git, CVS</td>
-				</tr>
-				<tr>
-					<th scope="row">Operating Systems</th>
-					<td>Windows, Ubuntu, CentOS, Fedora, Raspbian</td>
-				</tr>
-				<tr>
-					<th scope="row">Game & Simulation Engines</th>
-					<td>Unity, Unreal Engine, SimCreator</td>
-				</tr>
-				<tr>
-					<th scope="row">Graphics Software</th>
-					<td>Maya, 3D Studio Max, Photoshop, Illustrator</td>
-				</tr>
-			</table>
+			<div class="skills">
+				<table class="table table-sm table-borderless">
+					<tr>
+						<th scope="row">Languages</th>
+						<td>C++, C, C#, JavaScript, Python, Java, Scala, Lua</td>
+					</tr>
+					<tr>
+						<th scope="row">Compilers</th>
+						<td>MSVC, MinGW, LuaJIT</td>
+					</tr>
+					<tr>
+						<th scope="row">Build Systems</th>
+						<td>CMake, Boost.Jam</td>
+					</tr>
+					<tr>
+						<th scope="row">Frameworks</th>
+						<td>WPF, .NET, Google Test, CAF, Node.js, Akka</td>
+					</tr>
+					<tr>
+						<th scope="row">Libraries</th>
+						<td>OpenGL, ZeroMQ, Google Protobuf, RapidJSON, GLM, GLEW, GLFW, ImGui, Boost</td>
+					</tr>
+					<tr>
+						<th scope="row">Formats</th>
+						<td>FBX, PNG, JSON, XML, OpenFlight (FLT), VRML 2.0 (WRL)</td>
+					</tr>
+					<tr>
+						<th scope="row">Version Control</th>
+						<td>Perforce, Git, CVS</td>
+					</tr>
+					<tr>
+						<th scope="row">Operating Systems</th>
+						<td>Windows, Ubuntu, CentOS, Fedora, Raspbian</td>
+					</tr>
+					<tr>
+						<th scope="row">Game & Simulation Engines</th>
+						<td>Unity, Unreal Engine, SimCreator</td>
+					</tr>
+					<tr>
+						<th scope="row">Graphics Software</th>
+						<td>Maya, 3D Studio Max, Photoshop, Illustrator</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<div>
 			<h2 class="resume-section-title border-bottom border-dark">Work Experience</h2>
@@ -97,11 +101,13 @@
 					</div>
 					<p class="resume-position-time text-muted">Nov 2014 - Present</p>
 					<ul>
-						<li>Shipped 3 major software releases as Engineering Lead</li>
+						<li>Redesigned and developed core engine architecture to meet new business objectives</li>
+						<li>Led engineering team in porting and refactoring 20-year-old core engine libraries into new engine</li>
+						<li>Software Lead for a multi-million dollar project using new engine</li>
 						<li>Worked closely with Product Owner as Scrum Master to manage backlog, timelines, financials, and risk</li>
-						<li>Refactored 20-year-old core engine libraries to meet modern user requirements</li>
-						<li>Provided deep technical leadership to cross-functional team on key components and critical requirements</li>
-						<li>Helped interview and mentor new software engineers</li>
+						<li>Provided deep technical leadership to a cross-functional team on key components and critical requirements</li>
+						<li>Managed three direct reports and helped interview and mentor new software engineers</li>
+						<li>Shipped 3 major software releases as Engineering Lead</li>
 					</ul>
 				</li>
 				<li>
@@ -113,7 +119,6 @@
 					<ul>
 						<li>Performed on-site programming updates in sensitive manufacturing environments</li>
 						<li>Improved production performance for clients such as John Deere, GM, and Delphi</li>
-						<li>Provided critical 24/7 remote support in times of production crisis</li>
 					</ul>
 				</li>
 				<li>
